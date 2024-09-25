@@ -53,10 +53,10 @@ console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 // Exercise 6
 
 const maxOfThree = (num2, num3, num4) => {
-    if (num2 >= num3 && num2 >= num4) {
+    if (num2 > num3 && num2 > num4) {
       return num2;
     }  
-    else if (num3 >= num2 && num3>= num4) {
+    else if (num3 > num2 && num3> num4) {
         return num3;
     } else {
         return num4;
