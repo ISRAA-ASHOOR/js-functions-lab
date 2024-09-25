@@ -136,3 +136,22 @@ const calculateGrade = (num7) => {
 
 console.log('Exercise 10 Result:', calculateGrade(85));
 
+// Level up Exercise 11
+
+const createUsername = (firstName, lastName) => {
+    const firstThree = firstName.slice(0, 3);
+    const lastThree = lastName.slice(0, 3);
+    const totalChars = firstName.length + lastName.length;
+    const username = firstThree + lastThree + totalChars;
+    return username;
+}
+
+console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
+
+// Level up Exercise 12
+
+function numArgs() {
+    return arguments.length;
+};
+
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
